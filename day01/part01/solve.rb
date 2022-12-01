@@ -14,4 +14,4 @@ File.readlines('input.txt').each do |line| # read the lines
         elf_inv = 0 # reset current elf inventory
     end
 end
-puts "max elf " + elf_max_id.to_s + " carries " + elf_max.to_s + " calories"
+puts elf_max.to_s # max calories ya I solved this like a C dev sorry
